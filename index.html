@@ -1,159 +1,447 @@
 <!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="pt-BR">
 	<head>
-		<title>Fabrício Vale</title>
+		<title>Fabrício Vale | AI Agent Developer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta
+			name="description"
+			content="Portfólio de Fabrício Vale, AI Agent Developer com foco em agentes de IA, N8N, Python, RAG e automação inteligente."
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
-		<!-- Header -->
+		<div class="page-shell">
 			<header id="header">
-				<h1>Big Picture</h1>
+				<a href="#hero" class="brand">
+					<span class="brand-mark">FV</span>
+					<span class="brand-text">Fabrício Vale</span>
+				</a>
 				<nav>
 					<ul>
-						<li><a href="#intro">Intro</a></li>
-						<li><a href="#one">What I Do</a></li>
-						<li><a href="#two">Who I Am</a></li>
-						<li><a href="#work">My Work</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#agents">Agentes de IA</a></li>
+						<li><a href="#about">Sobre</a></li>
+						<li><a href="#stack">Stack</a></li>
+						<li><a href="#projects">Projetos</a></li>
+						<li><a href="#experience">Experiência</a></li>
+						<li><a href="#contact">Contato</a></li>
 					</ul>
 				</nav>
 			</header>
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content">
-					<header>
-						<h2>Hey.</h2>
-					</header>
-					<p>Welcome to <strong>Big Picture</strong> a responsive site template designed by <a href="https://html5up.net">HTML5 UP</a><br />
-					and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>.</p>
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
-			</section>
-
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>What I Do</h2>
-					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Who I Am</h2>
-					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
-
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content">
-					<header>
-						<h2>My Work</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
-					</header>
-
-					<!-- Gallery  -->
-						<div class="gallery">
-							<article class="from-left">
-								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
-							</article>
+			<main>
+				<section id="hero" class="hero-panel section-panel">
+					<div class="hero-grid">
+						<div class="hero-copy reveal">
+							<p class="eyebrow">Mossoró, RN • Brasil</p>
+							<h1>
+								<span class="type-line">AI Agent Developer</span>
+								<span class="accent-line">Automação inteligente com N8N, Python e RAG</span>
+							</h1>
+							<p class="hero-summary">
+								Desenvolvedor especializado em Agentes de IA e automações inteligentes, com foco
+								em transformar processos manuais em operações autônomas, escaláveis e eficientes.
+							</p>
+							<div class="hero-actions">
+								<a href="#agents" class="button primary">Ver agentes em produção</a>
+								<a href="#contact" class="button secondary">Entrar em contato</a>
+							</div>
+							<ul class="hero-highlights">
+								<li>Agentes em produção via WhatsApp</li>
+								<li>Arquitetura RAG integrada a bases reais</li>
+								<li>Automação ponta a ponta com IA Generativa</li>
+							</ul>
 						</div>
 
-				</div>
-			</section>
-
-		<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content">
-					<header>
-						<h2>Say Hello.</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
-					</header>
-					<div class="box">
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
-								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
-								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+						<div class="hero-terminal reveal delay-1">
+							<div class="terminal-window">
+								<div class="terminal-topbar">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<div class="terminal-body">
+									<p><span class="prompt">$</span> whoami</p>
+									<p>Fabrício Vale</p>
+									<p><span class="prompt">$</span> role --current</p>
+									<p>Analista de Desenvolvimento Pleno • Grupo TCM Telecom</p>
+									<p><span class="prompt">$</span> focus --expertise</p>
+									<p>AI Agents • N8N • Python • RAG • Prompt Engineering</p>
+									<p><span class="prompt">$</span> status --production</p>
+									<p class="terminal-ok">3 agentes operando em fluxos reais de negócio</p>
+								</div>
 							</div>
-							<ul class="actions special">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
-						</form>
+							<div class="signal-grid" aria-hidden="true"></div>
+						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-		<!-- Footer -->
+				<section id="agents" class="section-panel spotlight-panel">
+					<div class="section-heading reveal">
+						<p class="eyebrow">Destaque Principal</p>
+						<h2>Agentes de IA em produção para operações reais</h2>
+						<p>
+							Arquitetura, orquestração e entrega de agentes conversacionais com foco em venda,
+							suporte e automação de jornada do assinante.
+						</p>
+					</div>
+
+					<div class="metrics-grid">
+						<article class="metric-card reveal">
+							<span class="metric-value">3</span>
+							<span class="metric-label">Agentes ativos em produção</span>
+						</article>
+						<article class="metric-card reveal delay-1">
+							<span class="metric-value">100%</span>
+							<span class="metric-label">Operação via WhatsApp</span>
+						</article>
+						<article class="metric-card reveal delay-2">
+							<span class="metric-value">RAG</span>
+							<span class="metric-label">Base de conhecimento integrada</span>
+						</article>
+					</div>
+
+					<div class="agent-grid">
+						<article class="agent-card reveal">
+							<div class="card-icon"><i class="fas fa-bolt"></i></div>
+							<h3>Campanha Streaming Promocional</h3>
+							<p>
+								Agente conversacional que conduz assinantes do primeiro contato até a conclusão
+								da venda de GloboPlay, Telecine e Premiere.
+							</p>
+							<div class="chip-row">
+								<span class="chip">N8N</span>
+								<span class="chip">Python</span>
+								<span class="chip">WhatsApp API</span>
+								<span class="chip">IA Generativa</span>
+							</div>
+						</article>
+
+						<article class="agent-card reveal delay-1">
+							<div class="card-icon"><i class="fas fa-satellite-dish"></i></div>
+							<h3>Serviço Móvel</h3>
+							<p>
+								Agente para contratação do serviço móvel da operadora, incluindo fluxo completo
+								de portabilidade numérica do assinante.
+							</p>
+							<div class="chip-row">
+								<span class="chip">N8N</span>
+								<span class="chip">Python</span>
+								<span class="chip">WhatsApp API</span>
+								<span class="chip">IA Generativa</span>
+							</div>
+						</article>
+
+						<article class="agent-card reveal delay-2">
+							<div class="card-icon"><i class="fas fa-tv"></i></div>
+							<h3>Suporte TV</h3>
+							<p>
+								Agente de suporte técnico para diagnóstico e resolução automatizada de
+								problemas no serviço de TV dos assinantes.
+							</p>
+							<div class="chip-row">
+								<span class="chip">N8N</span>
+								<span class="chip">Python</span>
+								<span class="chip">WhatsApp API</span>
+								<span class="chip">IA Generativa</span>
+							</div>
+						</article>
+					</div>
+				</section>
+
+				<section id="about" class="section-panel">
+					<div class="split-layout">
+						<div class="section-heading reveal">
+							<p class="eyebrow">Sobre Mim</p>
+							<h2>Construindo operações mais inteligentes com IA aplicada</h2>
+							<p>
+								Possuo Agentes de IA em produção, desenvolvidos com N8N e Python, com
+								arquitetura RAG integrada a bases de conhecimento reais. Minha atuação une
+								tecnologia, análise de processos e implementação prática para gerar eficiência
+								em cenários de negócio.
+							</p>
+						</div>
+
+						<div class="info-panel reveal delay-1">
+							<ul class="detail-list">
+								<li><strong>Nome:</strong> Fabrício Vale</li>
+								<li><strong>Cargo atual:</strong> Analista de Desenvolvimento Pleno</li>
+								<li><strong>Empresa:</strong> Grupo TCM Telecom</li>
+								<li>
+									<strong>Posicionamento:</strong> AI Agent Developer | Agentes de IA com N8N &
+									Python | RAG | Automação Inteligente
+								</li>
+								<li><strong>Localização:</strong> Mossoró, RN — Brasil</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section id="stack" class="section-panel">
+					<div class="section-heading reveal">
+						<p class="eyebrow">Competências e Stack</p>
+						<h2>Arquitetura, integração e automação com foco em IA</h2>
+						<p>
+							Conjunto técnico voltado para criação de agentes, fluxos autônomos e integração de
+							sistemas em ambientes de produção.
+						</p>
+					</div>
+
+					<div class="skills-layout">
+						<article class="stack-card reveal">
+							<h3>Competências principais</h3>
+							<div class="chip-row">
+								<span class="chip">Arquitetura de Agentes de IA</span>
+								<span class="chip">Engenharia de Prompt</span>
+								<span class="chip">RAG</span>
+								<span class="chip">Automação de Processos</span>
+								<span class="chip">Integração de APIs</span>
+								<span class="chip">Scrum</span>
+								<span class="chip">Kanban</span>
+								<span class="chip">Análise de Requisitos</span>
+								<span class="chip">Documentação Técnica</span>
+							</div>
+						</article>
+
+						<article class="stack-card reveal delay-1">
+							<h3>IA & Automação</h3>
+							<div class="chip-row">
+								<span class="chip">N8N</span>
+								<span class="chip">Agentes de IA</span>
+								<span class="chip">RAG</span>
+								<span class="chip">IA Generativa</span>
+								<span class="chip">LLMs</span>
+								<span class="chip">Prompt Engineering</span>
+								<span class="chip">RPA</span>
+								<span class="chip">Selenium</span>
+								<span class="chip">PyAutoGUI</span>
+							</div>
+						</article>
+
+						<article class="stack-card reveal delay-2">
+							<h3>Back-end & Fullstack</h3>
+							<div class="chip-row">
+								<span class="chip">Python</span>
+								<span class="chip">Flask</span>
+								<span class="chip">Django</span>
+								<span class="chip">PHP</span>
+								<span class="chip">JavaScript</span>
+								<span class="chip">HTML</span>
+								<span class="chip">CSS</span>
+							</div>
+						</article>
+
+						<article class="stack-card reveal">
+							<h3>Banco de Dados</h3>
+							<div class="chip-row">
+								<span class="chip">PostgreSQL</span>
+								<span class="chip">MySQL</span>
+								<span class="chip">SQL</span>
+							</div>
+						</article>
+
+						<article class="stack-card reveal delay-1">
+							<h3>DevOps & Ferramentas</h3>
+							<div class="chip-row">
+								<span class="chip">Git</span>
+								<span class="chip">GitHub</span>
+								<span class="chip">Linux</span>
+							</div>
+						</article>
+					</div>
+				</section>
+
+				<section id="projects" class="section-panel">
+					<div class="section-heading reveal">
+						<p class="eyebrow">Projetos em Produção</p>
+						<h2>Soluções implantadas no Grupo TCM Telecom</h2>
+						<p>
+							Agentes desenvolvidos para jornadas reais de atendimento e contratação, com foco em
+							eficiência operacional e experiência conversacional.
+						</p>
+					</div>
+
+					<div class="project-grid">
+						<article class="project-card reveal">
+							<div class="project-header">
+								<span class="project-tag">WhatsApp Agent</span>
+								<h3>Campanha Streaming Promocional</h3>
+							</div>
+							<p>
+								Automação do fluxo comercial para contratação de serviços promocionais de
+								streaming, com condução conversacional e suporte ao fechamento da venda.
+							</p>
+							<div class="chip-row">
+								<span class="chip">N8N</span>
+								<span class="chip">Python</span>
+								<span class="chip">WhatsApp API</span>
+								<span class="chip">IA Generativa</span>
+							</div>
+						</article>
+
+						<article class="project-card reveal delay-1">
+							<div class="project-header">
+								<span class="project-tag">Mobility Agent</span>
+								<h3>Serviço Móvel</h3>
+							</div>
+							<p>
+								Fluxo automatizado para contratação do serviço móvel com suporte ao processo de
+								portabilidade numérica do assinante.
+							</p>
+							<div class="chip-row">
+								<span class="chip">N8N</span>
+								<span class="chip">Python</span>
+								<span class="chip">WhatsApp API</span>
+								<span class="chip">IA Generativa</span>
+							</div>
+						</article>
+
+						<article class="project-card reveal delay-2">
+							<div class="project-header">
+								<span class="project-tag">Support Agent</span>
+								<h3>Suporte TV</h3>
+							</div>
+							<p>
+								Diagnóstico e resolução automatizada para problemas técnicos do serviço de TV,
+								reduzindo fricção e acelerando o atendimento ao assinante.
+							</p>
+							<div class="chip-row">
+								<span class="chip">N8N</span>
+								<span class="chip">Python</span>
+								<span class="chip">WhatsApp API</span>
+								<span class="chip">IA Generativa</span>
+							</div>
+						</article>
+					</div>
+				</section>
+
+				<section id="experience" class="section-panel">
+					<div class="section-heading reveal">
+						<p class="eyebrow">Experiência</p>
+						<h2>8 anos de evolução contínua no Grupo TCM Telecom</h2>
+						<p>
+							Trajetória construída em operação, suporte, sistemas e desenvolvimento, chegando à
+							atuação atual com foco em soluções mais estratégicas e inteligentes.
+						</p>
+					</div>
+
+					<div class="timeline reveal">
+						<article class="timeline-item">
+							<span class="timeline-date">set/2025 – atual</span>
+							<h3>Analista de Desenvolvimento Pleno</h3>
+							<p>Grupo TCM Telecom</p>
+						</article>
+						<article class="timeline-item">
+							<span class="timeline-date">out/2023 – set/2025</span>
+							<h3>Analista de Desenvolvimento de Sistemas</h3>
+							<p>Grupo TCM Telecom</p>
+						</article>
+						<article class="timeline-item">
+							<span class="timeline-date">abr/2023 – out/2023</span>
+							<h3>Analista de Sistemas</h3>
+							<p>Grupo TCM Telecom</p>
+						</article>
+						<article class="timeline-item">
+							<span class="timeline-date">out/2021 – abr/2023</span>
+							<h3>Analista de Suporte de Sistemas</h3>
+							<p>Grupo TCM Telecom</p>
+						</article>
+						<article class="timeline-item">
+							<span class="timeline-date">jan/2018 – out/2021</span>
+							<h3>Atendente / Auxiliar</h3>
+							<p>Grupo TCM Telecom</p>
+						</article>
+					</div>
+				</section>
+
+				<section id="education" class="section-panel">
+					<div class="section-heading reveal">
+						<p class="eyebrow">Formação</p>
+						<h2>Base acadêmica alinhada à evolução em IA</h2>
+					</div>
+
+					<div class="education-grid">
+						<article class="education-card reveal">
+							<h3>Pós-graduação em Engenharia de Machine Learning</h3>
+							<p>Anhanguera • 2025–2026</p>
+						</article>
+						<article class="education-card reveal delay-1">
+							<h3>Pós-graduação em Gestão e Governança de TI</h3>
+							<p>Anhanguera • 2025–2026</p>
+						</article>
+						<article class="education-card reveal delay-2">
+							<h3>Pós-graduação em Inteligência Artificial para Desenvolvedores</h3>
+							<p>Anhanguera • 2025–2025</p>
+						</article>
+						<article class="education-card reveal">
+							<h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+							<p>UNIASSELVI • 2020–2023</p>
+						</article>
+						<article class="education-card reveal delay-1">
+							<h3>Programador Web</h3>
+							<p>UFRN • 2020–2021</p>
+						</article>
+					</div>
+				</section>
+
+				<section id="contact" class="section-panel contact-panel">
+					<div class="section-heading reveal">
+						<p class="eyebrow">Contato</p>
+						<h2>Vamos conversar sobre IA aplicada a operações reais</h2>
+						<p>
+							Disponível para conexões profissionais, networking e oportunidades ligadas a
+							Agentes de IA, automação inteligente e soluções com Python e N8N.
+						</p>
+					</div>
+
+					<div class="contact-grid">
+						<a class="contact-card reveal" href="mailto:fabriciovale18@gmail.com">
+							<i class="fas fa-envelope"></i>
+							<span>E-mail</span>
+							<strong>fabriciovale18@gmail.com</strong>
+						</a>
+						<a
+							class="contact-card reveal delay-1"
+							href="https://www.linkedin.com/in/fabrício-vale-6713b998/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<i class="fab fa-linkedin"></i>
+							<span>LinkedIn</span>
+							<strong>/in/fabrício-vale-6713b998/</strong>
+						</a>
+						<a
+							class="contact-card reveal delay-2"
+							href="https://github.com/fabriciovale20"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<i class="fab fa-github"></i>
+							<span>GitHub</span>
+							<strong>github.com/fabriciovale20</strong>
+						</a>
+					</div>
+				</section>
+			</main>
+
 			<footer id="footer">
-
-				<!-- Icons -->
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-					</ul>
-
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-					</ul>
-
+				<p>© 2026 Fabrício Vale. Portfólio focado em IA, automação e agentes inteligentes.</p>
+				<p>
+					<a href="https://portfolio-fabriciovale.vercel.app" target="_blank" rel="noreferrer">
+						portfolio-fabriciovale.vercel.app
+					</a>
+				</p>
 			</footer>
+		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
